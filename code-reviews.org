@@ -1,0 +1,7 @@
+* Code Reviews
+Code Reviews destroy human relationships for at least 10 years. So, be careful doing it.
+
+This is the behavior we expected from you:
++ Make your comments positive and oriented to improving the code. You are a nice person, not a hater.
++ Prefer questions over statements. It will help you when you are wrong.
++ Suggest, not demand.

@@ -1,0 +1,5 @@
+* [YourTeam] WoW (Way of Working)
+Welcome to the [YourTeam] WoW repository! Here is where we keep our team
+agreements.
+
+You can learn more about our WoW repositories [[https://medium.com/guidewire-engineering-blog/building-a-wow-repository-on-git-3f0ac301d218][here]].

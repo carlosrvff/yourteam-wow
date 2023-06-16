@@ -1,0 +1,24 @@
+* Estimates
+Our team estimates stories on Refinements and Sprint Plannings.
+
+However, our estimations are concrete proof that most humans are terrible at estimating anything. It is like Russel Wilson guessing that avoiding Beast Mode would be the best option to win the Super Bowl XLIX.
+
+We use story points to estimate stories. You know, Fibonacci stuff: 0, 1, 2, 3, 5, 8, 13...
+
+Here is a high-level overview of what our team uses for estimates.
+
+| Story Points | Description                                                                                  |
+|--------------+----------------------------------------------------------------------------------------------|
+| > 8 Points   | Who are you? Neo? Please break it into multiple stories.                                     |
+| 5 Points     | Hmmm, we are not so sure, and it seems to change different parts of projects.                |
+| 3 Points     | We know that it can change several parts, but we are confident. Yes, we can.                 |
+| 2 Points     | Deals with 1 or 2 simple components of the project. Something that will make us proud fast.  |
+| 1 Point      | Simple, and that has almost no impact — the opposite of love and the same as a label change. |
+
+As time goes on (Casablanca it is still a great movie), we can use previous delivery to help us reduce the impact of our terrible estimations.
+** What do we not estimate?
++ Tech debt
++ Bug
++ Spike
++ Action item
++ How much will be your annual bonus this year

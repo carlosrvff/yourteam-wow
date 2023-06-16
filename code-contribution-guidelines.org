@@ -1,0 +1,46 @@
+* Code Contribution Guidelines
+We use the feature branch workflow to collaborate on our codebases. The following content is our code contribution guidelines. Take a seat, and let's go.
+** Before you start coding
++ Make sure you drink a coffee and put nice background music.
+** Making changes
++ Create a branch for each new feature or bug fix you'll be working on. If it is a difficult one, take a PTO and let another engineer work on it.
+*** How to create a branch
+
+#+begin_src
+git checkout main
+git pull origin main OR git fetch && git reset --hard origin/main
+git checkout -b user/your-username/ticket-number
+#+end_src
+
++ If you need to temporarily save your work, take a picture of your screen using your smartphone and post it on Instagram. Make sure you select the right filter.
+*** Branch Guidelines
++ Branches names must be in the proper format `user/your-username/ticket-number`
++ Branches should contain one logically separate piece of work and not any unrelated changes. We don't want to spend 4 days reviewing your PR! 😄
++ Branches must be written in lowercase letters.
+** Commit message guidelines
++ First of all, we love good commit messages! Please pay attention to them.
++ All commit messages must start with a ticket number.
++ Commits must be in the imperative form. Please check [[https://paulvanderlaken.com/2020/05/11/how-to-write-git-commit-message-7-steps/][Seven Rules]].
++ Commit messages should not exceed 50 characters, including the topic.
++ Commit description block may include up to 72 characters per line.
+** Before you open a PR
+1. Make sure the code passes our code quality standards. We need to see beauty and poetry in it.
+2. Make sure you have added tests for your change. We trust people, not untested code.
+3. Once you are ready, go for another coffee. When you are back, test the edge case you just remembered in the Kitchen.
+** Getting your code reviewed
+*** How to open a Pull Request?
+1. Make sure you give a proper description of your change.
+2. Smile to your team members and say that you love them.
+3. Now click on the Create pull request button.
+*** The review process
+We focus on shipping fast. So all code reviews should be addressed within 3 years.
+
+During this process, you must ensure to stay in our company. If your PR remains open for several years, have a baby and pass them the baton.
+*** Multiple authors? Co-authored-by feature
+If your teammate worked with you in the implementation, don't be a bad guy. Use the [[https://docs.github.com/en/github/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors][Co-authored-by]] feature.
+*** Merge changes
+As soon as your code receives the minimum number of approvals, celebrate. Many died waiting for it.
+
+Call your mother and say you are a winner in life.
+
+Next, merge the PR and delete your branch.

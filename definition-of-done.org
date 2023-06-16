@@ -1,0 +1,13 @@
+* Definition of Done
+** User Story
++ We want to see the color green in your build.
++ Test it with the same attention you play online.
++ What you are delivering meets the Acceptance Criteria.
++ PR approved by at least three team members + the CEO's son.
+** Spike
++ Document the outcome. Your Holiday in Italy was great, but we must see the pictures.
++ Share the knowledge with the team.
++ Outcome reviewed by at least 1 team member + the CFO's nephew.
+** Bug
++ Fix the bug. But if you are in a hurry, set the ticket resolution to "Can't reproduce".
+  
